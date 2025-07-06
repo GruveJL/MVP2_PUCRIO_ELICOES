@@ -11,6 +11,8 @@ Construir todo o fluxo de pré-processamento e análise exploratória de um banc
 ### Objetivo do projeto:
 A ideia inicial seria um mapeamento do público de candidatos, tentando entender as distribuições e as relações entre as características declaradas com os valores dos bens declarados e a quantidade de bens, tentando entender a possibilidade e/ou a necessidade de implementação de um modelo classificatório para extrair relações entre as variáveis.
 
+Vale ressaltar que este projeto não possui cunho político ou partidário, apenas a satisfação de um aprofundamento sob dados aplamente divulgados pelos orgãos competentes.
+
 ### Base de dados: 
 A base de dados utilizada(dataset) será a união de duas informações disponibilizadas pelo TSE ([Tribunal Superior Eleitoral](https://dadosabertos.tse.jus.br/), as bases são:
 1. 2024 - Municipais [Candidatos](https://dadosabertos.tse.jus.br/dataset/candidatos-2024/resource/af76c401-0972-4ddf-8ea8-00e310ae53b4)
@@ -22,7 +24,7 @@ Esses dados estão sob licença de uso aberto para uso, manipulação e divulga�
 
 Cada tipo de arquivo utilizado arquivo possui um .pdf explicativo dos dados, uma espécie de catálogo, que disponibilizei também nesse repo: [Candidatos](https://github.com/GruveJL/MVP2_PUCRIO_ELICOES/blob/main/doc_candidatos.pdf)  [Bens](https://github.com/GruveJL/MVP2_PUCRIO_ELICOES/blob/10659563802920146b833ef111ce24bcff1402be/doc_bens_candidatos.pdf)
 
-Vale ressaltar que este projeto não possui cunho político ou partidário, apenas a satisfação de um aprofundamento sob dados aplamente divulgados pelos orgãos competentes.
+Como os arquivos zip ultrapassam o limite de 25MB do git hub, disponibilizarei os arquivos consolidados zipados no formato .7z, única compactação que reduziu considerávelmente o tamanho dos arquivos.
 
 ## Proposta Inicial
 A Proposta inicial era avaliar mais períodos eleitorais, construir bases por anos, e validar possíveis correlações exitentes entre os anos, entretanto por questões de prazo para entrega do projeto, optei por focar nas eleições de 2024.
