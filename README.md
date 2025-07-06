@@ -24,7 +24,24 @@ Cada tipo de arquivo utilizado arquivo possui um .pdf explicativo dos dados, uma
 
 Vale ressaltar que este projeto não possui cunho político ou partidário, apenas a satisfação de um aprofundamento sob dados aplamente divulgados pelos orgãos competentes.
 
-
 ## Proposta Inicial
+A Proposta inicial era avaliar mais períodos eleitorais, construir bases por anos, e validar possíveis correlações exitentes entre os anos, entretanto por questões de prazo para entrega do projeto, optei por focar nas eleições de 2024.
+
+## Metodologia
+A seguir levanterai alguns pontos do processo de tratamento e pré-processamento dos dados:
+
+Todo projeto foi feito no [Google Colab](https://colab.google/), os arquivos utilizados estão disponibilizados nesse repo.
+O arquivo [Main](https://colab.research.google.com/drive/15hh-Qxa51TSKqQDnp1sD7DGVcuPq0FHF?usp=sharing) com todas as etapas da análise e um arquivo de [Preparo](https://colab.research.google.com/drive/1r2rcIwebG56Psui7-0Yz0iiZmHqVkgM_?usp=sharing) para o processo inicial de engenharia de baixar as bases compactadas e extrair os .csv's dentro da pasta do colab.
+
+A ideia inicial era unificar as bases em um único dataset, tratar dados estranhos com base nos catálogos fornecidos, utilizando da análise exploratória e de estatística descritiva decidir quais colunas e quais dados fazem sentido manter nas bases e quais fazem sentido retirar, no final adaptar essa base tratada para a implementação de um modelo de classificação.
+
+Há na base alguns problemas já conhecidos, como já havia trabalhado com essa base já tinha em mente alguns problemas como a possibilidade de duplicação de candidatos na base, por poder haver 2º turno já que a base tem granularidade de candidatos por turno, a enorme quantidade de cateegorias distintas para alguns campos como o de "ocupação", ou o de "tipo de bem". Esses problemas tratei numa parte anterior a nálise chamada de "Primeiros Tratamentos", que apesar de também ser uma análise exploratória e envolver pré-processamento, optei por apartar pois após esses ajustes a análise se fez mais direta e menos complexa no entendimento.
+
+O final fiz o split das bases de treino e teste e uma normalização, já que as colunas finais ficaram todas binárias exceto as de valores e quantidades de bens.
+
+## Análise e Conclusão
+A análise se fez muito produtiva porém negando quase todas as hipóteses. Optei por fazer hipóteses questionativas a fim de entender e aprofundar mais nas dimensões e especificidades dos dados. Por fim tentei responder as indagações com as correlações entre as colunas tratadas, infelizmente o resultado foi menor que o esperado. Quando olhado a relação entre as características e as informações de bens vemos praticamente nenhuma correlação, com alguns baixos indicadores. 
+
+Pude observar na análise que o dataset possui *outliers* extremamente desproporcionais à base, podendo ser facilmente verificado no gráfico de boxplot onde vemos apenas, talvez em futuras análises caiba retirar os chamados *outliers* e refazer as análises tentando encontrar novas correlações.
 
 
