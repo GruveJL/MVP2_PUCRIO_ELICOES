@@ -1,5 +1,5 @@
-<h1 align="center"> MVP1_PUCRIO_ELEICOES </h1> 
-<h2 align="center">Repo for MVP 2 of Data Science and Analytics at PUC RIO MBA</h2> 
+<h1 align="center"> MVP2_PUCRIO_ELEICOES </h1> 
+<h2 align="center">Repo MVP 2 - Data Science and Analytics - PUC RIO MBA</h2> 
 
 
 ## Resumo do Projeto
@@ -42,6 +42,11 @@ O final fiz o split das bases de treino e teste e uma normalização, já que as
 ## Análise e Conclusão
 A análise se fez muito produtiva porém negando quase todas as hipóteses. Optei por fazer hipóteses questionativas a fim de entender e aprofundar mais nas dimensões e especificidades dos dados. Por fim tentei responder as indagações com as correlações entre as colunas tratadas, infelizmente o resultado foi menor que o esperado. Quando olhado a relação entre as características e as informações de bens vemos praticamente nenhuma correlação, com alguns baixos indicadores. 
 
-Pude observar na análise que o dataset possui *outliers* extremamente desproporcionais à base, podendo ser facilmente verificado no gráfico de boxplot onde vemos apenas, talvez em futuras análises caiba retirar os chamados *outliers* e refazer as análises tentando encontrar novas correlações.
+Pude observar na análise, que o dataset possui *outliers* extremamente desproporcionais à base, podendo ser facilmente verificado no gráfico de boxplot onde vemos apenas a representação desses outliers, talvez em futuras análises caiba retirar os chamados *outliers* e refazer as análises tentando encontrar novas correlações.
 
+O resultado foi básico porém gratificante, dado o esforço e o fato de alimentar a minha curiosidade a respeito da relação entre patrimônio dos candidatos. 
+Ademais agradeço a oportunidade e a proposta do projeto, tenho alguns anos de experiência na área de dados e poucas vezes fui confrontados com os questionamentos de como e por que fazer certas escolhas no processo de criação de um Dataset.
+
+# Autores
+| [<img src="https://avatars.githubusercontent.com/u/131409712?v=4"  width=115><br><sub>Juan Lima</sub>](https://github.com/GruveJL)
 
